@@ -1,0 +1,293 @@
+@media screen and  (min-width: 1200px){ 
+    .waiting-list,
+    .for-list{
+        padding-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+@media screen and  (max-width: 1199px){ 
+	.impression{
+        padding-top: 50px;
+    }
+    .educators{
+        padding-left: 0px;
+        margin-bottom: 50px;
+    }
+    .stankov,
+    .chernoritsky,
+    .tolstyakov,
+    .all{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; 
+        float: none;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+    .educators{
+        padding: 0px;
+        font-size: 45px;
+        text-align: center;
+        white-space: normal;
+        margin-left: -10px;
+    }
+    .teachers-all{
+        text-align: center;
+        width: auto;
+    }
+    .teacher{
+        text-align: center;
+    }
+    .teacher_information{
+        text-align: center;
+    }
+    .tense{
+        padding-left: 15px;
+        margin-top: 50px;
+    }
+    .circs{
+        padding-bottom: 20px;
+    }
+    .drawing_map{
+        background: none;
+        height: auto;
+        width: 100%;
+        position: static;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .green_city {
+        position: static;
+        margin-bottom: 10px;
+        color: #11191f;
+        background-color: transparent;
+        padding: 5px;
+        font-size: 20px;
+        border: 2px solid white;
+    }
+    .white_city{
+        position: static;
+        margin-bottom: 7px;
+        background-color: transparent;
+        font-size: 18px;
+        border: 2px solid white;
+        padding: 3px;
+        color: #11191f;
+    }
+    .green_city:hover,
+    .white_city:hover{
+        color: #f7e22c;
+        border-color: #FFC107;
+    }
+    .petersburg>.green_city,
+    .moscow>.green_city,
+    .nizhny-novgorod>.green_city,
+    .saratov>.green_city,
+    .petropavlovsk>.green_city{
+       padding-right: 5px;
+       padding-left: 5px;
+    }
+    .drawing_map>hr{
+        display: block;
+    }
+    .ulyanovsk,
+    .murmansk,
+    .arkhangelsk,
+    .petersburg,
+    .moscow,
+    .nizhny-novgorod,
+    .saratov,
+    .volgograd,
+    .surgut,
+    .omsk,
+    .petropavlovsk,
+    .schlsselburg,
+    .luga,
+    .dzerzhinsk,
+    .vetluga,
+    .darovskoy{
+        position: static;
+    }
+    .circle,
+    .stick {
+        display: none;
+    }
+    .ulyanovsk>.green_city:after,
+    .murmansk>.green_city:after,
+    .arkhangelsk>.green_city:after,
+    .petersburg>.green_city:after,
+    .moscow>.green_city:after,
+    .nizhny-novgorod>.green_city:after,
+    .saratov>.green_city:after,
+    .volgograd>.green_city:after,
+    .surgut>.green_city:after,
+    .omsk>.green_city:after,
+    .petropavlovsk>.green_city:after,
+    .schlsselburg>.green_city:after,
+    .luga>.green_city:after,
+    .dzerzhinsk>.green_city:after,
+    .vetluga>.green_city:after,
+    .darovskoy>.green_city:after{
+        display: none;
+    }
+    .account{
+        margin-left: 0;
+    }
+    .review_headline,
+    .expositor,
+    .forename,
+    .comment{
+        text-align: center;
+    }
+    .account:after{
+        display: none;
+    }
+    .review_line{
+        margin-bottom: 40px;
+    }
+}
+@media screen and  (max-width: 992px){ 
+    .for_whom,
+    .what_is_waiting,
+    .dates{
+        padding-left: 15px;
+        font-size: 35px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-top: 0;
+    }
+    .teachers-all{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .band{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .impression,
+    .txt_impression,
+    .tag,
+    .plan,
+    .plan-list,
+    .time-list{
+        margin-left: 20px;
+    }
+    .one{
+        font-size: 15px;
+    }
+    .three{
+        font-size: 35px;
+    }
+    .two{
+        font-size: 25px;
+        white-space: normal;
+    }
+    .btn-info_for_applications{
+        float: none;
+    }
+    .locality{
+        padding-left: 15px;
+    }
+    .camp_geography,
+    .come{
+        text-align: center;
+    }
+    .drawing_map{
+        text-align: center;
+    }
+    .asked_questions{
+        font-size: 40px;
+    }
+    .faq{
+        padding-left: 30px;
+        padding-top: 30px; 
+    }
+    .btn-faq{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
+@media screen and  (max-width: 768px){ 
+    .base>img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .exposition{
+        text-align: center;
+    }
+    .recreation_center{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .rest{
+        margin-left: 0px;
+    }
+    .circs{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .btn-faq{
+        float: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .asked_questions{
+        margin-right: 50px;
+    }
+    .question{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .week,
+    .period{
+        margin-left: 5px;
+    }
+} 
+@media screen and  (max-width: 480px){ 
+    .rest{
+        font-size: 40px;
+    }   
+    .recreation_center{
+        font-size: 25px;
+    }
+    .locality{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .locality>img{
+        width: 100%;
+    }
+    #map > iframe{
+        width: 100%;
+    }
+    .review_headline{
+        font-size: 45px;
+    }
+    .three{
+        font-size: 30px;
+    }
+    .rest{
+        font-size: 35px;
+    }
+    .camp_geography{
+        font-size: 40px;
+    }
+    .educators{
+        font-size: 40px;
+    }
+    .asked_questions{
+        font-size: 33px;
+    }
+    .for-list,
+    .waiting-list{
+        padding-left: 35px;
+    }
+    .for-list>li,
+    .waiting-list>li{
+        padding-left: 10px;
+    }
+    .faq{
+        padding-left: 30px;
+    }
+}

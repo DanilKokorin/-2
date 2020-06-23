@@ -1,0 +1,42 @@
+@media screen and  (max-width: 1200px){ 
+	.logo-footer{
+		float: left;
+    }
+    .guide{
+    	float: left;
+    }
+    .baedeker{
+    	float: left;
+    }
+    .networks{
+    	float: left;
+    }
+}
+@media screen and  (max-width: 992px){ 
+	.logo-footer,
+    .guide,
+    .baedeker,
+    .networks{
+    	float: none;
+    }
+    .footer{
+    	text-align: center;
+    }
+    .guide,
+    .baedeker{
+    	margin: 0px;
+    }
+    .networks{
+    	margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .guide>ul,
+    .baedeker>ul{
+        font-size: 15px;
+        padding: 0px;
+    }
+    .logo-footer{
+		margin-bottom: 15px;
+		margin-left: 0px;
+    }
+}

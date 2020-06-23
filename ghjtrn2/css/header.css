@@ -1,0 +1,156 @@
+.header{
+    height: 120px;
+    background: rgba(254,254,254,1);
+    background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(235,235,235,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(100%, rgba(235,235,235,1)));
+    background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(235,235,235,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(235,235,235,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(235,235,235,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(235,235,235,1) 100%);
+    padding-top: 3px;
+}
+.logo-header_2{
+	max-width: 940px;
+	margin: auto;
+}
+.logo-header{
+	background: url("../img/header/logo.png") no-repeat;
+	width:368px;
+	height: 88px;
+	margin-bottom: -2px;
+	display: inline-block;
+	float:left;
+}
+.contacts-header{
+	margin-top: 10px;
+	display: inline-block;
+	float:right;
+}
+.phone{
+	margin-left: 20px;
+	color:#222222;
+	font-size: 12px;
+	position: relative;
+}
+.phone>a{
+    text-decoration: none;
+    border-bottom: 1px dashed #7c7c7c;
+	color:#222222;
+}
+.number-phone{
+	color:#000000;
+	font-weight: bold;
+	font-size: 22px;
+}
+.social_icons>img{
+	margin-left: 5px;
+	cursor: pointer;
+}
+.social_icons{
+	margin-left: 25px;
+	margin-right: 15px;
+}
+.navbar{
+	margin: auto;
+	max-width: 940px;
+	margin-top: 85px;
+}
+.our_courses,
+.events,
+.prices,
+.teachers,
+.about_school,
+.franchise,
+.communications,
+.trial_lesson{
+	border-right:2px solid #e7e7e7;
+	border-bottom: 5px solid #d9d9d9;
+	font-size: 12.76px;
+	font-weight: bold;
+}
+.container-fluid{
+	padding:0;
+}
+.navbar-collapse{
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#ffffff;
+	background: #54b121;
+	border-bottom: 5px solid #3f9b26;
+}
+.navbar-default .navbar-nav>li>a:active{
+	color:#ffffff;
+	background: #54b121;
+	border-bottom: 5px solid #3f9b26;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#000;
+}
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:hover{
+    background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+.navbar-toggle.collapsed .icon-bar:nth-child(1), 
+.navbar-toggle.collapsed .icon-bar:nth-child(2),
+.navbar-toggle.collapsed .icon-bar:nth-child(3) {
+    transform: rotate(0deg);
+    position: static;
+    top: 0;
+    display: block;
+    transition: all 0.3s;
+    background: #ccc;
+}
+.navbar-toggle .icon-bar:nth-child(1) {
+    transform: rotate(135deg);
+    position: relative;
+    top: 3px;
+    transition: all 0.3s;
+}
+.navbar-toggle .icon-bar:nth-child(2) {
+    display: none;
+}
+.navbar-toggle .icon-bar:nth-child(3) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -3px;
+    transition: all 0.3s;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.navbar-toggle .icon-bar {
+    background: #ccc;
+}
+.navbar-toggle{
+	height: 35px;
+}
+.list{
+	background-color: #fff;
+	display: block;
+	width: 150px;
+	height: 319.5px;
+	left: 7px;
+	position: absolute;
+	z-index: 1;
+	display: none;
+	top: 20px;
+}
+.drop-down_town{
+	color: black;
+	font-size: 15px;
+	position: relative;
+	display: block;
+	margin: 1.5px 0px 1.5px 10px;
+}
+.drop-down_town:hover,
+.drop-down_town:active{
+	text-decoration: none;
+	color: green;
+}

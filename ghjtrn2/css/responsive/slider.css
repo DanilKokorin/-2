@@ -1,0 +1,29 @@
+@media screen and  (max-width: 1199px){ 
+    .counter-slides{
+        left: 46%;
+        top: 94%;
+    }
+    .how_it_was{
+    	text-align: center;;
+    	float: none;
+    }
+    .labelPhoto,
+    .labelVideo{
+    	float: none;
+    }
+    .lp,
+    .lv{
+        padding-left: 0;
+    }
+    .wrapper > .row{
+    	text-align: center;
+    }
+}
+@media screen and  (max-width: 480px){ 
+    .how_it_was{
+        font-size: 28px;
+    }
+    .counter-slides{
+        top: 92%;
+    }
+}

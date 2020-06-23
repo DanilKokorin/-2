@@ -1,0 +1,927 @@
+@font-face{
+
+font-family: 'Open Sans';
+
+src: url('../fonts/OpenSans-ExtraBold.eot');
+
+src: url('../fonts/OpenSans-ExtraBold.eot?iefix') format('eot'),
+
+url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+
+url('../fonts/OpenSans-ExtraBold.svg#webfont') format('svg');
+}
+@font-face{
+font-family: 'PT Serif';
+
+src: url('../fonts/PTF55F.eot');
+
+src: url('../fonts/PTF55F.eot?iefix') format('eot'),
+
+url('../fonts/PTF55F.ttf') format('truetype'),
+
+url('../fonts/PTF55F.svg#webfont') format('svg');
+
+}
+.top{
+    background: url("../img/main/backr_main.png") no-repeat;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+.one{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 55px;
+    width: 100%;
+}
+.two{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    white-space: nowrap;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.three{
+    font-size:65px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 65px;
+    width: 100%;
+}
+.btn{
+    color:#fff;
+    background-color: #53ae22;
+    border-radius:0;
+    border:none;
+    border-bottom: 5px solid #3e9b26; 
+    width: 225px;
+    height: 58px;
+    padding-top: 15px;
+    font-size: 21.5px;
+}
+.btn:hover{
+	color:#fff;
+	background-color: #47a216;
+	border-bottom: 5px solid #287b12; 
+}
+.btn:active{
+	color:#fff;
+	background-color: #53ae22;
+	border-bottom: 5px solid #3e9b26; 
+}
+.container{
+    margin-top: 80px;
+}
+.for_whom{
+    background: url("../img/main/for.png") no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    padding-left: 32px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 0;
+}
+.for-list{
+    list-style-image: url("../img/main/marker.png");
+    padding-left: 30px;
+    padding-top: 38px;
+    margin-bottom: 40px;
+}
+.for-list>li{
+    font-size: 22px;
+    line-height: 1.2;
+    color:#000;
+    font-family: 'PT Serif', serif;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+.what_is_waiting{
+    background: url("../img/main/waiting.png") no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    padding-left: 32px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.waiting-list{
+    list-style-image: url("../img/main/marker.png");
+    padding-left: 30px;
+    padding-top: 38px;
+    margin-bottom: 40px;
+}
+.waiting-list>li{
+    font-size: 22px;
+    line-height: 1.2;
+    color:#000;
+    font-family: 'PT Serif', serif;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+.expectations{
+    background: url("../img/main/plan.png") no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    padding-bottom: 240px;
+}
+.impression{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 183, 32);
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+.txt_impression{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color:#000;
+    line-height: 1.2;
+    margin-left: 45px;
+}
+.tag{
+	margin-left: 45px;
+}
+.tag-word{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color: rgb(87, 183, 32);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+.txt_tag{
+	display: inline-block;
+	line-height: 1.2;
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+	color:#000;
+}
+.plan{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-left: 45px;
+}
+.plan-list{
+	list-style-image: url("../img/main/mark.png");
+	margin-left: 30px;
+}
+.plan-list>li{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.band{
+	margin-left: 45px;
+}
+.time-list{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-left: 45px;
+}
+.time{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(1, 1, 1);
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.stankov,
+.chernoritsky,
+.tolstyakov,
+.all{
+    padding: 0px;
+}
+.stankov,
+.chernoritsky,
+.tolstyakov{
+    margin-right: 20px;
+}
+.all{
+    margin-left: 20px;
+}
+.educators{
+    padding-left:0px;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+}
+.teacher{
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 183, 32);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+.teacher_information{
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+.other_teachers{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: left;
+    cursor: pointer;
+}
+.teachers-all{
+    width: 114px;
+    border-radius: 4px;
+    background-color: rgb(213, 62, 62);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 23px;
+}
+.other_teachers:hover{
+    color:#000;
+}
+.other_teachers:active{
+    color:#000;
+}
+.expenses{
+    background: url("../img/main/plan.png") no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    padding: 30px;
+}
+.tense{
+    padding-left: 46px;
+}
+.value{
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.valuation{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color:#000;
+    line-height: 1.8;
+}
+.worth{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 183, 32);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.tagging{
+    color: #d52323;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.included>span{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(1, 1, 1);
+}
+.included{
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+    color:#000;
+    line-height: 1.2;
+    margin-top: 15px;
+}
+.additionally{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color:#000;
+    line-height: 1.2;
+}
+.additionally>span{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(1, 1, 1);
+}
+.btn-info_for_applications{
+    margin-top: 30px;
+    width: 190px;
+    height: 58px;
+    font-size: 18px;
+    float: left;
+    margin-right: 20px;
+}
+.applications_are_accepted{
+  font-size: 15px;
+  color: #5d5e5d;
+  margin-bottom: 0px;
+  margin-top: 35px;
+}
+.communication_number,
+.communication_E-mail{
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(87, 183, 32);
+    text-transform: uppercase;
+}
+.communication_E-mail{
+    text-decoration: underline;
+    margin-top: -10px;
+}
+.dates{
+    background: url("../img/main/for.png") no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    padding-left: 32px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 0;
+}
+.dates-list{
+    margin-top: 40px;
+}
+.week{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(91, 90, 90);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-left: 30px;
+}
+.period{
+  font-size: 27px;
+  font-family: 'PT Serif', serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 35px;
+  margin-left: 30px;
+}
+.exposition{
+    background: url("../img/main/backr_main_2.png") no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+.recreation_center{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.rest{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    margin-left: -48px;
+}
+.place{
+    font-size: 17px;
+    font-family: 'PT Serif', serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.image-box{
+    border-radius: 1px;
+    box-shadow: 0px 2px 3px 0px rgba(4, 4, 4, 1);
+    margin-top: 34px;
+    margin-right: 8px;
+    width: 206px;
+    height: 145px;
+    display: inline-block;
+}
+.image-box-1{
+    background: url("../img/main/base-1.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image-box-2{
+    background: url("../img/main/base-2.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.image-box-3{
+    background: url("../img/main/base-3.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.loupe{
+    display: none;
+    position: absolute;
+    left: 75px;
+    bottom: 40px;
+}
+.blackout{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.4;
+}
+.image-box:hover>.loupe,
+.image-box:hover>.blackout {
+    display:block;
+}
+.locality{
+    padding-left: 30px;
+}
+.location{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+.komarovo{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+#map{
+    border-radius: 1px;
+    margin-top: 40px;
+    height: 365px; 
+    width: 100%;
+}
+.conditions{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    margin-top: 60px;
+}
+.description_of_conditions{
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+.map{
+    background: url("../img/main/chart-fond.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height:791px;
+}
+.map>.container{
+    margin-top: 0px;  
+    padding: 0px; 
+}
+.drawing_map{
+    background: url("../img/main/drawing.png") no-repeat;
+    height: 542px;
+    width: 1035px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px; 
+    background-size: cover;
+    position: relative;
+}
+.camp_geography{
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.25;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+.come{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(254, 255, 254);
+    line-height: 1.2;
+    font-weight: bolder;
+}
+.green_city {
+    position: relative;
+    background: #57b720;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 2px;
+    padding-right: 4px;
+    padding-left: 0px;
+}
+.green_city:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(87, 183, 32, 0);
+    border-right-color: #57b720;
+    border-width: 13px;
+    margin-top: -12.5px;
+}
+.green_city:hover {
+    font-size: 20px;
+}
+.petersburg>.green_city:after,
+.moscow>.green_city:after,
+.nizhny-novgorod>.green_city:after,
+.saratov>.green_city:after,
+.petropavlovsk>.green_city:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(87, 183, 32, 0);
+    border-left-color: #57b720;
+    border-width: 13px;
+    margin-top: -12.5px;
+}
+.petersburg>.green_city,
+.moscow>.green_city,
+.nizhny-novgorod>.green_city,
+.saratov>.green_city,
+.petropavlovsk>.green_city{
+   padding-right: 0px;
+   padding-left: 4px;
+}
+.white_city{
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 183, 32);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 2px;
+}
+.ulyanovsk,
+.murmansk,
+.arkhangelsk,
+.petersburg,
+.moscow,
+.nizhny-novgorod,
+.saratov,
+.volgograd,
+.surgut,
+.omsk,
+.petropavlovsk,
+.schlsselburg,
+.luga,
+.dzerzhinsk,
+.vetluga,
+.darovskoy{
+    position: absolute;
+}
+.ulyanovsk{
+    left: 197px;
+    top: 305px;
+}
+.ulyanovsk>.circle{
+    position: absolute;
+    right: 121px;
+    bottom: 5px;
+}
+.murmansk{
+    left: 290px;
+    top: 105px;
+}
+.murmansk>.circle{
+    position: absolute;
+    right: 118px;
+    bottom: 5px;
+}
+.arkhangelsk{
+    left: 265px;
+    top: 165px;
+}
+.arkhangelsk>.circle{
+    position: absolute;
+    right: 142px;
+    bottom: 5px;
+}
+.petersburg{
+    left: -22px;
+    top: 158px;
+}
+.petersburg>.circle{
+    position: absolute;
+    left: 177px;
+    bottom: 5px;
+}
+.moscow{
+    left: 50px;
+    top: 234px;
+}
+.moscow>.circle{
+    position: absolute;
+    left: 90px;
+    bottom: 5px;
+}
+.nizhny-novgorod{
+    left: -45px;
+    top: 266px;
+}
+.nizhny-novgorod>.circle{
+    position: absolute;
+    left: 210px;
+    bottom: 5px;
+}
+.saratov{
+    left: 46px;
+    top: 312px;
+}
+.saratov>.circle{
+    position: absolute;
+    left: 95px;
+    bottom: 5px;
+}
+.volgograd{
+    left: 113px;
+    top: 340px;
+}
+.volgograd>.circle{
+    position: absolute;
+    right: 122px;
+    bottom: 5px;
+}
+.surgut{
+    left: 408px;
+    top: 320px;
+}
+.surgut>.circle{
+    position: absolute;
+    right: 76px;
+    bottom: 5px;
+}
+.omsk{
+    left: 370px;
+    top: 396px;
+}
+.omsk>.circle{
+    position: absolute;
+    right: 63px;
+    bottom: 5px;
+}
+.petropavlovsk{
+    left: 682px;
+    top: 260px;
+}
+.petropavlovsk>.circle{
+    position: absolute;
+    left: 312px;
+    bottom: 5px;
+}
+.schlsselburg{
+    left: 175px;
+    top: 144px;
+}
+.schlsselburg>.stick{
+    position: absolute;
+    left: -13px;
+    top: 18px;
+}
+.luga{
+    left: 95px;
+    top: 186px;
+}
+.luga>.stick{
+    position: absolute;
+    bottom: 14px;
+    right: -15px;
+}
+.dzerzhinsk{
+    left: 40px;
+    top: 290px;
+}
+.dzerzhinsk>.stick{
+    position: absolute;
+    bottom: 5px;
+    right: -15px;
+}
+.vetluga{
+    left: 220px;
+    top: 245px;
+}
+.vetluga>.stick{
+    position: absolute;
+    left: -15px;
+    top: 12px;
+}
+.darovskoy{
+    left: 240px;
+    top: 272px;
+}
+.darovskoy>.stick{
+    position: absolute;
+    left: -16px;
+    bottom: 6px;
+}
+.white_city:hover{
+    color: rgb(29, 148, 34);
+}
+.drawing_map>hr{
+    display: none;
+}
+.review_headline {
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.comment{
+    font-size: 20.5px;
+    font-family: 'PT Serif', serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+.account{
+    background: url("../img/main/comment.png") no-repeat;
+    background-size: cover;
+    min-height: 220px;
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+.account:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(238, 234, 231, 0);
+    border-right-color: #eeeae7;
+    border-width: 18px;
+    margin-top: -88px;
+}
+.forename{
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 183, 32);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+.forename_information{
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.expositor{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.all_feedback{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.all_feedback>a{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    color: #57b720;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+.all_feedback>a:hover{
+    color: #3c771b;
+}
+.faq{
+    background: url("../img/main/faq.png") no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    min-height: 170px;
+    padding-left: 30px;
+    padding-top: 10px; 
+}
+.asked_questions{
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 1);
+    float: left;
+}
+.btn-faq{
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.question_number{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 183, 32);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.question_text{
+    font-size: 22px;
+    font-family: 'PT Serif', serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: left;
+}
+.question{
+    margin-top: 60px;
+}
+.btn-row{
+    text-align: center;
+}
+.btn-row>div{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+form>.btn{
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+form>.btn:hover{
+    border: none;
+}
+.glyphicon{
+    width: 20px;
+    height: 20px;
+}
+.modal-footer>.btn{
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 15px;
+    background-color: #d05058;
+}
+.modal-footer>.btn:hover{
+    border: none;
+}
